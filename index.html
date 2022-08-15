@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    
+    <head>
+
+        <title>Decodificador</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../Decodificador/reset.css">
+        <link rel="stylesheet" href="../Decodificador/style.css">
+        <link rel="stylesheet" href="../Decodificador/assents/Inter-Thin.woff">
+        <link rel="stylesheet" href="../Decodificador/assents/Inter-Thin.woff2">
+        
+    </head>
+
+    <body>    
+    
+
+        <header>
+            <div class="container">
+                <h1 class="titulo-principal">Decod / One</h1>
+            </div>
+        </header>
+
+        <main>
+            
+            <div id="areaText">
+                <div>
+                    <textarea class="text" rows="15" id="textIn" placeholder="Digite seu texto aqui" autofocus="true" required></textarea>
+                </div>
+                <div>
+                    <textarea class="text" rows="15" id="textOut" placeholder="Texto criptografado" disabled></textarea>
+                </div>
+            </div>
+
+            <div id="aviso">
+                <p >Somente letras minúsculas e sem acento</p>
+            </div>
+            
+            <div id="areaButtonCod">
+                
+                <button onclick="encriptar()" type="button" class="button" id="codificador">Encriptar</button>
+                <button onclick="dencriptar()" type="button" class="button" id="decodificador">Descriptar</button>
+                <button onclick="copiar()" type="button" class="button" id="copiar">Copiar</button>
+            </div>
+            
+        </main>
+
+        <footer>
+            <h3 class="rodape">&copy; Desenvolvido por Kaio Nicolas - Nick -</h3>
+        </footer>
+
+        <script src="../Decodificador/script.js"></script>
+    </body>
+
+</html>
